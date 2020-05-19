@@ -1,0 +1,42 @@
+colors = []
+colors.append("red")
+colors.append("blue")
+colors.append("almond")
+colors.append("black")
+colors.insert(0, "yellow")
+colors.insert(2, "amazon")
+colors.insert(-1, "white")
+print("original")
+print(colors)
+print("sorted")
+print(sorted(colors))
+print(sorted(colors, reverse=True))
+print("reverse")
+colors.reverse()
+print(colors)
+colors.reverse()
+print(colors)
+print("sort")
+colors.sort()
+print(colors)
+colors.sort(reverse=True)
+print(colors)
+print("pop")
+colors.pop()
+colors.pop(0)
+colors.pop(2)
+print(colors)
+print("remove")
+colors.remove("red")
+colors.remove("amazon")
+print(colors)
+print("del")
+del colors[1]
+del colors[0]
+print(colors)
+print()
+print(f"length: {len(colors)}")
+
+
+
+
